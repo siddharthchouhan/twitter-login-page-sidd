@@ -1,0 +1,211 @@
+body {
+  background-color: rgba(0, 0, 0, 0.387);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  width: 37%;
+  margin: auto;
+  margin-top: 5%;
+  font-family: arial;
+  height: 650px;
+}
+
+.xmark {
+  position: relative;
+  cursor: pointer;
+}
+
+.xmark i {
+  position: absolute;
+  position: absolute;
+  left: 3%;
+  margin-top: 2%;
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.735);
+}
+
+.head img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.heading h1 {
+  font-size: 30px;
+}
+
+.google {
+  border: 1px solid lightgray;
+  border-radius: 35px;
+  width: 50%;
+  margin: auto;
+  margin-top: 4%;
+  padding: 10px 1px;
+  font-family: "Google Sans", arial, sans-serif;
+  font-weight: bold;
+  color: rgba(54, 54, 54, 0.854);
+  font-size: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.google:hover {
+  border: 1px solid rgba(0, 162, 255, 0.123);
+  background-color: rgba(0, 162, 255, 0.055);
+  transition: 0.7s;
+}
+
+.google img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 17%;
+  top: 20.5%;
+}
+
+.apple {
+  border: 1px solid lightgray;
+  border-radius: 35px;
+  width: 50%;
+  margin: auto;
+  margin-top: 4%;
+  padding: 10px 1px;
+  position: relative;
+  cursor: pointer;
+}
+
+.apple:hover {
+  background-color: rgba(0, 0, 0, 0.114);
+  transition: 0.4s;
+}
+
+.apple i {
+  color: black;
+  font-size: 23px;
+  position: absolute;
+  top: 17%;
+  left: 17%;
+}
+
+.apple span {
+  color: rgba(20, 20, 20, 0.854);
+  font-family: "Google Sans", arial, sans-serif;
+  font-weight: bold;
+  font-size: 16.3px;
+}
+
+.hrline {
+  width: 51%;
+  height: 1px;
+  color: lightgray;
+  background-color: lightgray;
+  margin: auto;
+  margin-top: 4%;
+  position: relative;
+}
+
+.hrline p {
+  color: gray;
+  position: absolute;
+  left: 46%;
+  bottom: -862%;
+  background-color: white;
+  padding: 1px 5px;
+  font-size: 17px;
+}
+
+.box {
+  margin-top: 3%;
+}
+
+.box input {
+  width: 50%;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 18px 1px;
+  padding-left: 10px;
+  font-size: large;
+}
+
+.box input:focus {
+  outline: none;
+  border: 2px solid rgba(0, 123, 255, 0.918);
+  border-radius: 4px;
+}
+
+.btn {
+  margin-top: 3%;
+}
+
+.btn button {
+  background-color: rgba(0, 0, 0, 0.907);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.907);
+  font-weight: bold;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px 1px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  opacity: 90%;
+  transition: 0.4s;
+}
+
+.forget {
+  margin-top: 3%;
+}
+
+.forget button {
+  background-color: white;
+  color: black;
+  border: 1px solid lightgray;
+  font-weight: bold;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px 1px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.forget button:hover {
+  background-color: rgba(211, 211, 211, 0.716);
+  transition: 0.4s;
+}
+
+.signup {
+  margin-top: 12%;
+  text-align: left;
+  margin-left: 25%;
+}
+
+.signup span {
+  color: rgba(122, 122, 122, 0.83);
+}
+
+.signup a {
+  text-decoration: none;
+  color: rgb(0, 149, 255);
+  font-weight: 100;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
